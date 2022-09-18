@@ -1,0 +1,11 @@
+C:\Users\omer-\source\repos\PayCore_Final\Dto\bin\Debug\net5.0\Dto.deps.json
+C:\Users\omer-\source\repos\PayCore_Final\Dto\bin\Debug\net5.0\Dto.dll
+C:\Users\omer-\source\repos\PayCore_Final\Dto\bin\Debug\net5.0\ref\Dto.dll
+C:\Users\omer-\source\repos\PayCore_Final\Dto\bin\Debug\net5.0\Dto.pdb
+C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\Dto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\Dto.AssemblyInfoInputs.cache
+C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\Dto.AssemblyInfo.cs
+C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\Dto.csproj.CoreCompileInputs.cache
+C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\Dto.dll
+C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\ref\Dto.dll
+C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\Dto.pdb

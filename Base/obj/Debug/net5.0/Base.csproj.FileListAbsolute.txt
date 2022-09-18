@@ -1,0 +1,12 @@
+C:\Users\omer-\source\repos\PayCore_Final\Base\bin\Debug\net5.0\Base.deps.json
+C:\Users\omer-\source\repos\PayCore_Final\Base\bin\Debug\net5.0\Base.dll
+C:\Users\omer-\source\repos\PayCore_Final\Base\bin\Debug\net5.0\ref\Base.dll
+C:\Users\omer-\source\repos\PayCore_Final\Base\bin\Debug\net5.0\Base.pdb
+C:\Users\omer-\source\repos\PayCore_Final\Base\obj\Debug\net5.0\Base.csproj.AssemblyReference.cache
+C:\Users\omer-\source\repos\PayCore_Final\Base\obj\Debug\net5.0\Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omer-\source\repos\PayCore_Final\Base\obj\Debug\net5.0\Base.AssemblyInfoInputs.cache
+C:\Users\omer-\source\repos\PayCore_Final\Base\obj\Debug\net5.0\Base.AssemblyInfo.cs
+C:\Users\omer-\source\repos\PayCore_Final\Base\obj\Debug\net5.0\Base.csproj.CoreCompileInputs.cache
+C:\Users\omer-\source\repos\PayCore_Final\Base\obj\Debug\net5.0\Base.dll
+C:\Users\omer-\source\repos\PayCore_Final\Base\obj\Debug\net5.0\ref\Base.dll
+C:\Users\omer-\source\repos\PayCore_Final\Base\obj\Debug\net5.0\Base.pdb
