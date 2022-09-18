@@ -9,3 +9,4 @@ C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\Dto.csproj.CoreCo
 C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\Dto.dll
 C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\ref\Dto.dll
 C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\Dto.pdb
+C:\Users\omer-\source\repos\PayCore_Final\Dto\obj\Debug\net5.0\Dto.csproj.AssemblyReference.cache

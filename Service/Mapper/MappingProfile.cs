@@ -14,6 +14,7 @@ namespace Service.Mapper
         public MappingProfile()
         {
             CreateMap<UserRegisterDto, User>().ReverseMap();
+            CreateMap<CategoryDto, Category>().ReverseMap();
         }
     }
 }
