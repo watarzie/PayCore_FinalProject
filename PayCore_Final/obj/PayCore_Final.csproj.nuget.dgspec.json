@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\PayCore_Final\\PayCore_Final.csproj": {}
+    "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\PayCore_Final\\PayCore_Final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Base\\Base.csproj": {
+    "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Base\\Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Base\\Base.csproj",
+        "projectUniqueName": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Base\\Base.csproj",
         "projectName": "Base",
-        "projectPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Base\\Base.csproj",
+        "projectPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Base\\Base.csproj",
         "packagesPath": "C:\\Users\\omer-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Base\\obj\\",
+        "outputPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Data\\Data.csproj": {
+    "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\omer-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Data\\obj\\",
+        "outputPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -142,14 +142,14 @@
         }
       }
     },
-    "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Dto\\Dto.csproj": {
+    "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Dto\\Dto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Dto\\Dto.csproj",
+        "projectUniqueName": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Dto\\Dto.csproj",
         "projectName": "Dto",
-        "projectPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Dto\\Dto.csproj",
+        "projectPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Dto\\Dto.csproj",
         "packagesPath": "C:\\Users\\omer-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Dto\\obj\\",
+        "outputPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Dto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -202,14 +202,14 @@
         }
       }
     },
-    "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\PayCore_Final\\PayCore_Final.csproj": {
+    "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\PayCore_Final\\PayCore_Final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\PayCore_Final\\PayCore_Final.csproj",
+        "projectUniqueName": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\PayCore_Final\\PayCore_Final.csproj",
         "projectName": "PayCore_Final",
-        "projectPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\PayCore_Final\\PayCore_Final.csproj",
+        "projectPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\PayCore_Final\\PayCore_Final.csproj",
         "packagesPath": "C:\\Users\\omer-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\PayCore_Final\\obj\\",
+        "outputPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\PayCore_Final\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -232,11 +232,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Data\\Data.csproj"
+              "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Data\\Data.csproj"
               },
-              "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Service\\Service.csproj"
+              "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Service\\Service.csproj"
               }
             }
           }
@@ -298,14 +298,14 @@
         }
       }
     },
-    "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Service\\Service.csproj": {
+    "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Service\\Service.csproj",
+        "projectPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Service\\Service.csproj",
         "packagesPath": "C:\\Users\\omer-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Service\\obj\\",
+        "outputPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -328,14 +328,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Base\\Base.csproj": {
-                "projectPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Base\\Base.csproj"
+              "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Base\\Base.csproj": {
+                "projectPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Base\\Base.csproj"
               },
-              "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Data\\Data.csproj"
+              "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Data\\Data.csproj"
               },
-              "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Dto\\Dto.csproj": {
-                "projectPath": "C:\\Users\\omer-\\source\\repos\\PayCore_Final\\Dto\\Dto.csproj"
+              "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Dto\\Dto.csproj": {
+                "projectPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Dto\\Dto.csproj"
               }
             }
           }
@@ -350,6 +350,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
               "target": "Package",
               "version": "[5.0.17, )"

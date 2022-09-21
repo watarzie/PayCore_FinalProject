@@ -6,6 +6,7 @@ using Service.Base.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,8 +26,6 @@ namespace Service.Base.Concrete
 
             hibernateRepository = new HibernateRepository<Entity>(session);
         }
-
-
         public virtual BaseResponse<IEnumerable<Dto>> GetAll()
         {
             var tempEntity = hibernateRepository.Entities.ToList();
@@ -116,6 +115,8 @@ namespace Service.Base.Concrete
                 return new BaseResponse<Dto>(ex.Message);
             }
         }
+        
+
 
 
 

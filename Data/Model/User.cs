@@ -14,5 +14,7 @@ namespace Data.Model
         public virtual string Name { get; set; }
         public virtual string Email { get; set; }
         public virtual DateTime LastActivity { get; set; }
+        public virtual IList<Offer> Offer { get; set; }
+        public virtual IList<Product> Product { get; set; }
     }
 }

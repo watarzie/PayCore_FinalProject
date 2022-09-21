@@ -10,3 +10,15 @@ C:\Users\omer-\source\repos\PayCore_Final\Data\obj\Debug\net5.0\Data.csproj.Core
 C:\Users\omer-\source\repos\PayCore_Final\Data\obj\Debug\net5.0\Data.dll
 C:\Users\omer-\source\repos\PayCore_Final\Data\obj\Debug\net5.0\ref\Data.dll
 C:\Users\omer-\source\repos\PayCore_Final\Data\obj\Debug\net5.0\Data.pdb
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\bin\Debug\net5.0\Data.deps.json
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\bin\Debug\net5.0\Data.dll
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\bin\Debug\net5.0\ref\Data.dll
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\bin\Debug\net5.0\Data.pdb
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\obj\Debug\net5.0\Data.csproj.AssemblyReference.cache
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\obj\Debug\net5.0\Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\obj\Debug\net5.0\Data.AssemblyInfoInputs.cache
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\obj\Debug\net5.0\Data.AssemblyInfo.cs
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\obj\Debug\net5.0\Data.csproj.CoreCompileInputs.cache
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\obj\Debug\net5.0\Data.dll
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\obj\Debug\net5.0\ref\Data.dll
+C:\Users\omer-\Desktop\PayCore_FinalProject\Data\obj\Debug\net5.0\Data.pdb

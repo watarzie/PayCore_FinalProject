@@ -113,9 +113,9 @@ namespace Service.Token.Concrete
             var claims = new[]
             {
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Name, user.Email),
-                new Claim("AccountId", user.Id.ToString()),
-                new Claim("Email",user.Email)
+                new Claim(ClaimTypes.Name, user.UserName),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim("UserId",user.Id.ToString())       
             };
 
             return claims;

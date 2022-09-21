@@ -27,8 +27,8 @@ namespace PayCore_Final.Controllers
             this.mapper = mapper;
             this.tokenService = tokenService;
         }
-        [HttpPost]
-        public BaseResponse<UserRegisterDto> Post([FromBody] UserRegisterDto dto)
+        [HttpPost("Register")]
+        public BaseResponse<UserRegisterDto> Register([FromBody] UserRegisterDto dto)
         {
             var Hash = MD5Extension.MD5Hash(dto.Password);
             dto.Password = Hash;

@@ -14,47 +14,15 @@ namespace Data.Mapping
     {
         public UserMap()
         {
-            Id(x => x.Id, x =>
-            {
-                x.Type(NHibernateUtil.Int32);
-                x.Column("Id");
-                x.UnsavedValue(0);
-                x.Generator(Generators.Increment);
-            });
-
-            Property(b => b.Name, x =>
-            {
-
-                x.Type(NHibernateUtil.String);
-                x.NotNullable(true);
-            });
-
-            Property(b => b.Email, x =>
-            {
-                x.Type(NHibernateUtil.String);
-                x.NotNullable(true);
-            });
-
-            Property(b => b.Password, x =>
-            {
-                x.Type(NHibernateUtil.String);
-                x.NotNullable(true);
-            });
-
-
-            Property(b => b.UserName, x =>
-            {
-                x.Type(NHibernateUtil.String);
-                x.NotNullable(true);
-            });
-
-            Property(b => b.LastActivity, x =>
-            {
-                x.Type(NHibernateUtil.DateTime);
-                x.NotNullable(true);
-            });
-
             Table("user");
+            Id(user => user.Id, map => map.Generator(Generators.Identity));
+            Property(user => user.Email);
+            Property(user => user.Password);
+            Property(user => user.UserName);
+            Property(user => user.Name);
+            Property(user => user.LastActivity);
+            Bag(user => user.Offer, map => map.Key(k => k.Column("UserId")), rel => rel.OneToMany());
+            Bag(user => user.Product, map => map.Key(k => k.Column("UserId")), rel => rel.OneToMany());
         }
     }
 }

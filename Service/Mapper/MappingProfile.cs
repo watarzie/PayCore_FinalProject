@@ -15,6 +15,9 @@ namespace Service.Mapper
         {
             CreateMap<UserRegisterDto, User>().ReverseMap();
             CreateMap<CategoryDto, Category>().ReverseMap();
+            CreateMap<ProductDto, Product>().ReverseMap();
+            CreateMap<Offer, OfferDto> ().ReverseMap();
+            CreateMap<Product, UpdateProductDto>().ReverseMap();
         }
     }
 }

@@ -16,7 +16,8 @@ namespace Data.Mapping
             Table("category");
             Id(category => category.Id, map => map.Generator(Generators.Identity));
             Property(category => category.CategoryName);
-            Bag(product => product.Product, map => map.Key(k => k.Column("CategoryId")), rel => rel.OneToMany());
+            Bag(product => product.Product,map => map.Key(k => k.Column("CategoryId")), rel => rel.OneToMany());
+            
         }
      
     }

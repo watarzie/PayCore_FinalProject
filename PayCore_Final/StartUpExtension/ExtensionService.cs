@@ -1,6 +1,10 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.DependencyInjection;
 using Paycore_Final.Service;
+using Paycore_Final.UpdateProduct;
+using PayCore_Final.ServiceOffer;
+using PayCore_Final.ServiceProduct;
+using PayCore_Final.UpdateProduct;
 using Service.Mapper;
 using Service.Token.Abstract;
 using Service.Token.Concrete;
@@ -20,6 +24,9 @@ namespace PayCore_Final.StartUpExtension
             // services 
             services.AddScoped<IUserRegisterService, UserRegisterService>();
             services.AddScoped<ICategoryService, CategoryService>();
+            services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<IOfferService, OfferService>();
+            services.AddScoped<IUpdateProductService, UpdateProductService>();
             services.AddScoped<ITokenService, TokenService>();
 
 

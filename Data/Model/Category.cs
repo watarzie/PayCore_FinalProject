@@ -10,6 +10,6 @@ namespace Data.Model
     {
         public virtual int Id { get; set; }
         public virtual string CategoryName { get; set; }
-        public virtual List<Product> Product { get; set; }
+        public virtual IList<Product> Product { get; set; }
     }
 }
