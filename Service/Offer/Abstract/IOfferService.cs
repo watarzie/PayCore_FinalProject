@@ -11,5 +11,7 @@ namespace PayCore_Final.ServiceOffer
 {
     public interface IOfferService : IBaseService<OfferDto, Offer>
     {
+        public IEnumerable<Offer> GetAllByOffers(int id);
+        public IEnumerable<Offer> GetAllByOffersProduct(int id);
     }
 }

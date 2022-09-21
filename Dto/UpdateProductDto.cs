@@ -11,6 +11,6 @@ namespace Dto
     {
         
         [Required]
-        public virtual bool IsSold { get; set; } = false;
+        public virtual bool IsSold { get; set; }
     }
 }

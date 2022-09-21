@@ -108,3 +108,4 @@ C:\Users\omer-\Desktop\PayCore_FinalProject\PayCore_Final\obj\Debug\net5.0\PayCo
 C:\Users\omer-\Desktop\PayCore_FinalProject\PayCore_Final\obj\Debug\net5.0\ref\PayCore_Final.dll
 C:\Users\omer-\Desktop\PayCore_FinalProject\PayCore_Final\obj\Debug\net5.0\PayCore_Final.pdb
 C:\Users\omer-\Desktop\PayCore_FinalProject\PayCore_Final\obj\Debug\net5.0\PayCore_Final.genruntimeconfig.cache
+C:\Users\omer-\Desktop\PayCore_FinalProject\PayCore_Final\bin\Debug\net5.0\Newtonsoft.Json.dll

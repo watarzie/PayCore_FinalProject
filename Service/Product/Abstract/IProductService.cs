@@ -14,7 +14,9 @@ namespace PayCore_Final.ServiceProduct
     {
         IEnumerable<Product>  GetAllByCategoryId(int id);
         Product GetProduct(int id);
-    
+        public IEnumerable<Product> GetAllProduct(int id);
+
+
 
 
     }

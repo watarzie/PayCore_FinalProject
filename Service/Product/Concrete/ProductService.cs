@@ -39,7 +39,11 @@ namespace PayCore_Final.ServiceProduct
         {
             return hibernateRepository.GetById(id);
         }
-        
+        public IEnumerable<Product> GetAllProduct(int id)
+        {
+            return hibernateRepository.Find(x => x.UserId == id);
+        }
+
 
 
     }

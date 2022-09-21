@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "E35Of4hAygMPfVB1cVSPryIcsxOfEOiXyQTpDN/mzYEI1c40gRYwVAQQP0CSucHtpLUMZDkOGH1YfiPDHbKTAg==",
+  "dgSpecHash": "Kn4yZe4SUEMavn7hGSKXGx2QCTu2NUySf+INVxwWdINW96SAF3RKBUuxUNvydxVBainDo2CshNm/END/d+Zbng==",
   "success": true,
   "projectFilePath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\PayCore_Final\\PayCore_Final.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\omer-\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\omer-\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\omer-\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
+    "C:\\Users\\omer-\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\omer-\\.nuget\\packages\\nhibernate\\5.3.12\\nhibernate.5.3.12.nupkg.sha512",
     "C:\\Users\\omer-\\.nuget\\packages\\npgsql\\5.0.14\\npgsql.5.0.14.nupkg.sha512",
     "C:\\Users\\omer-\\.nuget\\packages\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",

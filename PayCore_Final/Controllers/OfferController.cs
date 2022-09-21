@@ -36,7 +36,7 @@ namespace PayCore_Final.Controllers
         {
             
             var entity = productService.GetProduct(dto.ProductId);
-            if(entity.IsOfferable==false)
+            if(entity.IsOfferable==false || entity.IsSold==true)
             {
                 return BadRequest("Teklif Verilemez");
             }

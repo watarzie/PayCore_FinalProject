@@ -54,5 +54,35 @@ namespace PayCore_Final.Controllers
             }
             return BadRequest(response);
         }
+        [Authorize]
+        [HttpPut("{id}")]
+        public IActionResult Update(int id, [FromBody] ProductDto dto)
+        {
+            var control = productService.GetProduct(id);
+            var userId= (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
+            dto.UserId= int.Parse(userId);
+            if(control.UserId==dto.UserId)
+            {
+                var response = productService.Update(id, dto);
+                return Ok(response);
+            }
+            return Unauthorized();
+            
+        }
+        [Authorize]
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var control = productService.GetProduct(id);
+            var userId = (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
+            
+            if (control.UserId == int.Parse(userId))
+            {
+                var response = productService.Remove(id);
+                return Ok(response);
+            }
+            return Unauthorized();
+
+        }
     }
 }

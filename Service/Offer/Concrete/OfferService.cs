@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Base.Response;
 using Data.Model;
 using Data.Repository;
 using Dto;
@@ -27,6 +28,16 @@ namespace PayCore_Final.ServiceOffer
             hibernateRepository = new HibernateRepository<Offer>(session);
 
         }
+        public IEnumerable<Offer> GetAllByOffers(int id)
+        {
+            return hibernateRepository.Find(x => x.UserId == id);
+        }
+        public IEnumerable<Offer> GetAllByOffersProduct(int id)
+        {
+            return hibernateRepository.Find(x => x.ProductId == id);
+        }
        
+
+
     }
 }
