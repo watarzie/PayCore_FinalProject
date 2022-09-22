@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qzE2B5p3o8tUNMcoB/SewmcrZ/C2rnQ9f7HYi7zh1PpnHIARehycM8oRMaGj2gvtWxPr66Gepv3ZVBCJLORcbg==",
+  "dgSpecHash": "ZB++G6zYopOIqwrt1UuxzTKdPTSXFKAYPob4OueZPKAD8uLOYD2j1VfY/gdtRuPv0jLj+xilJq6eePUSWBEBVQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\omer-\\Desktop\\bitirmeprojesi\\PayCore_FinalProject\\PayCore_Final\\PayCore_Final.csproj",
+  "projectFilePath": "C:\\Users\\omer-\\Desktop\\sonhalibitirme\\PayCore_FinalProject\\PayCore_Final\\PayCore_Final.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\omer-\\.nuget\\packages\\antlr3.runtime\\3.5.1\\antlr3.runtime.3.5.1.nupkg.sha512",
     "C:\\Users\\omer-\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
