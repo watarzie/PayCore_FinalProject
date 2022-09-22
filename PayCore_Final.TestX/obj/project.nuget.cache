@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j0KDrti22c6+EJmx6MDLzweKz0cKQlEdca5FP8lFdsJrqaAWh/oSgqtg0ue7QA3Nn6ukvgtjS92RE7sK/Mg6zA==",
+  "dgSpecHash": "n2dEMJRnGYl3CmjeWl8fj+rC8VaGdrVZ6cvnJYEUIfDNVlcfvDiCQqxjj4EfEyo+uerhkPvU6OJN53qCklkR3g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\omer-\\Desktop\\sonhalibitirme\\PayCore_FinalProject\\PayCore_Final.TestX\\PayCore_Final.TestX.csproj",
+  "projectFilePath": "C:\\Users\\omer-\\Desktop\\deneme\\PayCore_FinalProject\\PayCore_Final.TestX\\PayCore_Final.TestX.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\omer-\\.nuget\\packages\\coverlet.collector\\3.0.2\\coverlet.collector.3.0.2.nupkg.sha512",
     "C:\\Users\\omer-\\.nuget\\packages\\dapper\\2.0.30\\dapper.2.0.30.nupkg.sha512",

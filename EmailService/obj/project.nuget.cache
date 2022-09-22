@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SUxiu6BUvPlyLuQMAHzokBQyf1X5Db3rPcW9Ia+yi8pgQXzMifU60VcWMwrHh9faFpzfgeYUc8REQHvSArzdhw==",
+  "dgSpecHash": "/VAxqdvfPtKUDSnDe5NzYUenhSwTLbVFwGUIwjwBJaTRUPUgiRDuOl9x6G1yUeoWsqm5/HGfggT1RTJ1LO8fHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\omer-\\Desktop\\sonhalibitirme\\PayCore_FinalProject\\EmailService\\EmailService.csproj",
+  "projectFilePath": "C:\\Users\\omer-\\Desktop\\deneme\\PayCore_FinalProject\\EmailService\\EmailService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\omer-\\.nuget\\packages\\dapper\\2.0.30\\dapper.2.0.30.nupkg.sha512",
     "C:\\Users\\omer-\\.nuget\\packages\\hangfire\\1.7.31\\hangfire.1.7.31.nupkg.sha512",

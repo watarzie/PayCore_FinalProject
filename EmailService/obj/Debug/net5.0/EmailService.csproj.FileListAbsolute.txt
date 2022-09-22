@@ -10,3 +10,15 @@ C:\Users\omer-\Desktop\bitirmeprojesi\PayCore_FinalProject\EmailService\obj\Debu
 C:\Users\omer-\Desktop\bitirmeprojesi\PayCore_FinalProject\EmailService\obj\Debug\net5.0\EmailService.dll
 C:\Users\omer-\Desktop\bitirmeprojesi\PayCore_FinalProject\EmailService\obj\Debug\net5.0\ref\EmailService.dll
 C:\Users\omer-\Desktop\bitirmeprojesi\PayCore_FinalProject\EmailService\obj\Debug\net5.0\EmailService.pdb
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\bin\Debug\net5.0\EmailService.deps.json
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\bin\Debug\net5.0\EmailService.dll
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\bin\Debug\net5.0\ref\EmailService.dll
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\bin\Debug\net5.0\EmailService.pdb
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\obj\Debug\net5.0\EmailService.csproj.AssemblyReference.cache
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\obj\Debug\net5.0\EmailService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\obj\Debug\net5.0\EmailService.AssemblyInfoInputs.cache
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\obj\Debug\net5.0\EmailService.AssemblyInfo.cs
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\obj\Debug\net5.0\EmailService.csproj.CoreCompileInputs.cache
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\obj\Debug\net5.0\EmailService.dll
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\obj\Debug\net5.0\ref\EmailService.dll
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\EmailService\obj\Debug\net5.0\EmailService.pdb

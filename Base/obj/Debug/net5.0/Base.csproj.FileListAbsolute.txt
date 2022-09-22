@@ -22,3 +22,15 @@ C:\Users\omer-\Desktop\bitirmeprojesi\PayCore_FinalProject\Base\obj\Debug\net5.0
 C:\Users\omer-\Desktop\bitirmeprojesi\PayCore_FinalProject\Base\obj\Debug\net5.0\Base.dll
 C:\Users\omer-\Desktop\bitirmeprojesi\PayCore_FinalProject\Base\obj\Debug\net5.0\ref\Base.dll
 C:\Users\omer-\Desktop\bitirmeprojesi\PayCore_FinalProject\Base\obj\Debug\net5.0\Base.pdb
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\bin\Debug\net5.0\Base.deps.json
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\bin\Debug\net5.0\Base.dll
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\bin\Debug\net5.0\ref\Base.dll
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\bin\Debug\net5.0\Base.pdb
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\obj\Debug\net5.0\Base.csproj.AssemblyReference.cache
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\obj\Debug\net5.0\Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\obj\Debug\net5.0\Base.AssemblyInfoInputs.cache
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\obj\Debug\net5.0\Base.AssemblyInfo.cs
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\obj\Debug\net5.0\Base.csproj.CoreCompileInputs.cache
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\obj\Debug\net5.0\Base.dll
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\obj\Debug\net5.0\ref\Base.dll
+C:\Users\omer-\Desktop\deneme\PayCore_FinalProject\Base\obj\Debug\net5.0\Base.pdb
