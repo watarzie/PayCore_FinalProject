@@ -25,7 +25,21 @@
 * localhost üzerinden hangfire dashboardına erişip kuyrukları ve mail servis yapısın görebilirsiniz. Bunun için url kısmına localhost ve port ibaresinden sonra hangfire sözcüğünü ekleyebilirsiniz
 
 ## Proje Ekran Görüntüleri
-
+## Mimari
+![Schema](https://github.com/watarzie/PayCore_FinalProject/blob/main/ScreenShots/Proje%20Mimarisi.png?raw=true)
+## API Design
+![Schema](https://github.com/watarzie/PayCore_FinalProject/blob/main/ScreenShots/ApiDesign.png?raw=true)
+![Schema](https://github.com/watarzie/PayCore_FinalProject/blob/main/ScreenShots/ApiDesign2.png?raw=true)
+## Register
+![Schema](https://github.com/watarzie/PayCore_FinalProject/blob/main/ScreenShots/Register.png?raw=true)
+## Login
+![Schema](https://github.com/watarzie/PayCore_FinalProject/blob/main/ScreenShots/Login.png?raw=true)
+## Authorize
+![Schema](https://github.com/watarzie/PayCore_FinalProject/blob/main/ScreenShots/Authorize.png?raw=true)
+## Mail
+![Schema](https://github.com/watarzie/PayCore_FinalProject/blob/main/ScreenShots/Mail.png?raw=true)
+## Hangfire
+![Schema](https://github.com/watarzie/PayCore_FinalProject/blob/main/ScreenShots/HangFire.png?raw=true)
    
 
 
