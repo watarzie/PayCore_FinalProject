@@ -12,8 +12,7 @@ namespace Dto
         public virtual int UserId { get; set; }
         [Required]
         public virtual int ProductId { get; set; }
-        //public virtual bool IsApproved { get; set; }
-        
+        [RegularExpression(@"^\d$")]
         public virtual int OfferedPrice { get; set; }
     }
 }

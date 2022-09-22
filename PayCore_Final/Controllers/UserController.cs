@@ -44,7 +44,8 @@ namespace PayCore_Final.Controllers
             var response = userRegisterService.Insert(dto);
             if(response.Success)
             {
-                var message = new Message(dto.Email, "UrunKatalog Uygulamasına Hoşgeldiniz!", "Üyeliğiniz gerçekleştirilmiştir, aramıza hoşgeldiniz");
+                var message = new Message(dto.Email, "PayCore Hoşgeldiniz!", "Üyeliğiniz gerçekleştirilmiştir");
+                emailSender.SendEmailAsync(message);
                 backgroundJobClient.Enqueue<IEmailSender>(x => x.SendEmailAsync(message));
             }
            
@@ -56,6 +57,12 @@ namespace PayCore_Final.Controllers
             var Hash = MD5Extension.MD5Hash(request.Password);
             request.Password = Hash;
             var response = tokenService.GenerateToken(request);
+            if(response.Success) // işlem eğer başarılı olursa giren kullanıcıya hangfire ile mail atılır
+            {
+                var message = new Message(request.Email, "PayCore Hoşgeldiniz!", "Giriş Başarılı!");
+                emailSender.SendEmailAsync(message);
+                backgroundJobClient.Enqueue<IEmailSender>(x => x.SendEmailAsync(message));
+            }
             return response;
         }
     }

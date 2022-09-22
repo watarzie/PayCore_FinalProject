@@ -30,7 +30,13 @@ namespace PayCore_Final.Controllers
             this.productService = productService;
             this.updateProductService = updateProductService;
         }
-
+        [Authorize]
+        [HttpGet]
+        public IActionResult GetAll()
+        {
+            var response = offerService.GetAll();
+            return Ok(response);
+        }
         [Authorize]
         [HttpPost]
         public IActionResult Create([FromBody] OfferDto dto)

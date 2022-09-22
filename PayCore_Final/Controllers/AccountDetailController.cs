@@ -32,17 +32,17 @@ namespace PayCore_Final.Controllers
         {
             var userId = (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
             int userid= int.Parse(userId);
-            var response = offerService.GetAllByOffers(userid);
+            var response = offerService.GetAllByOffers(userid); // Yaptıgı offerları getirir
             return Ok(response);
             
         }
         [Authorize]
         [HttpGet("Offers")]
-        public IActionResult GetOfferMyProduct()
+        public IActionResult GetOfferMyProduct() // Kullanıcının ürünlerine aldığı offerları döner
         {
             var userId = (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
             int userid = int.Parse(userId);
-            var response = productService.GetAllProduct(userid);
+            var response = productService.GetAllProduct(userid); 
             foreach (var item in response)
             {
                 var control = offerService.GetAllByOffersProduct(item.Id);
@@ -52,13 +52,7 @@ namespace PayCore_Final.Controllers
             return BadRequest();
 
         }
-        //[Authorize]
-        //[HttpPost]
-        //public IActionResult Approve([FromBody]OfferDto dto)
-        //{
-        //    var userId = (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
-        //    int userid = int.Parse(userId);
-        //}
+      
 
     }
 }
