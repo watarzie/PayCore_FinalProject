@@ -17,6 +17,8 @@ using Microsoft.Extensions.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Configuration;
+using EmailService.Services;
+using EmailService;
 
 namespace PayCore_Final.StartUpExtension
 {
@@ -31,6 +33,7 @@ namespace PayCore_Final.StartUpExtension
             services.AddScoped<IOfferService, OfferService>();
             services.AddScoped<IUpdateProductService, UpdateProductService>();
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IEmailSender, EmailSender>();
 
             // mapper
             var mapperConfig = new MapperConfiguration(cfg =>

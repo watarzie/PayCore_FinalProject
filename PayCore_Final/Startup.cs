@@ -1,5 +1,8 @@
 using Base.Jwt;
 using Data.Model;
+using EmailService.Configurations;
+using Hangfire;
+using Hangfire.PostgreSql;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -31,6 +34,26 @@ namespace PayCore_Final
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var hangfireConnectionString = Configuration.GetConnectionString("PostgreSqlConnection");
+            services.AddHangfire(configuration =>
+            {
+            var option = new PostgreSqlStorageOptions
+            {
+                TransactionSynchronisationTimeout = TimeSpan.FromMinutes(5),
+                InvisibilityTimeout = TimeSpan.FromMinutes(5),
+                QueuePollInterval = TimeSpan.FromMinutes(5),
+                PrepareSchemaIfNecessary = true,
+                EnableTransactionScopeEnlistment = true
+                
+                
+            };
+             configuration.UsePostgreSqlStorage(hangfireConnectionString, option)
+                .WithJobExpirationTimeout(TimeSpan.FromHours(6));
+            });
+            
+
+            services.AddHangfireServer();
+
 
             var connStr = Configuration.GetConnectionString("PostgreSqlConnection");
             services.AddNHibernatePosgreSql(connStr);
@@ -38,6 +61,12 @@ namespace PayCore_Final
             JwtConfig = Configuration.GetSection("JwtConfig").Get<JwtConfig>();
             services.Configure<JwtConfig>(Configuration.GetSection("JwtConfig"));
 
+            var eMailConfig = Configuration
+            .GetSection("EmailConfiguration")
+            .Get<EmailConfiguration>();
+
+            services.AddSingleton(eMailConfig);
+            
             services.AddServices();
             services.AddJwtBearerAuthentication();
             services.AddCustomizeSwagger();
@@ -62,6 +91,9 @@ namespace PayCore_Final
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseHangfireDashboard();
+            GlobalJobFilters.Filters.Add(new AutomaticRetryAttribute { Attempts = 5 });
 
             app.UseEndpoints(endpoints =>
             {

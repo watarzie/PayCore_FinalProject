@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Base\\Base.csproj": {}
+    "C:\\Users\\omer-\\Desktop\\bitirmeprojesi\\PayCore_FinalProject\\Base\\Base.csproj": {}
   },
   "projects": {
-    "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Base\\Base.csproj": {
+    "C:\\Users\\omer-\\Desktop\\bitirmeprojesi\\PayCore_FinalProject\\Base\\Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Base\\Base.csproj",
+        "projectUniqueName": "C:\\Users\\omer-\\Desktop\\bitirmeprojesi\\PayCore_FinalProject\\Base\\Base.csproj",
         "projectName": "Base",
-        "projectPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Base\\Base.csproj",
+        "projectPath": "C:\\Users\\omer-\\Desktop\\bitirmeprojesi\\PayCore_FinalProject\\Base\\Base.csproj",
         "packagesPath": "C:\\Users\\omer-\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\omer-\\Desktop\\PayCore_FinalProject\\Base\\obj\\",
+        "outputPath": "C:\\Users\\omer-\\Desktop\\bitirmeprojesi\\PayCore_FinalProject\\Base\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

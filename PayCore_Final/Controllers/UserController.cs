@@ -2,6 +2,9 @@
 using Base.Response;
 using Base.Token;
 using Dto;
+using EmailService.Domain;
+using EmailService.Services;
+using Hangfire;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using PayCore_Final.Extensions;
@@ -22,11 +25,15 @@ namespace PayCore_Final.Controllers
         private readonly IUserRegisterService userRegisterService;
         private readonly ITokenService tokenService;
         private readonly IMapper mapper;
-        public UserController(IUserRegisterService userRegisterService, ITokenService tokenService, IMapper mapper)
+        private readonly IEmailSender emailSender;
+        private readonly IBackgroundJobClient backgroundJobClient;
+        public UserController(IUserRegisterService userRegisterService, ITokenService tokenService, IMapper mapper, IEmailSender emailSender, IBackgroundJobClient backgroundJobClient)
         {
             this.userRegisterService = userRegisterService;
             this.mapper = mapper;
             this.tokenService = tokenService;
+            this.emailSender = emailSender;
+            this.backgroundJobClient = backgroundJobClient;
             
         }
         [HttpPost("Register")]
@@ -35,6 +42,12 @@ namespace PayCore_Final.Controllers
             var Hash = MD5Extension.MD5Hash(dto.Password);
             dto.Password = Hash;
             var response = userRegisterService.Insert(dto);
+            if(response.Success)
+            {
+                var message = new Message(dto.Email, "UrunKatalog Uygulamasına Hoşgeldiniz!", "Üyeliğiniz gerçekleştirilmiştir, aramıza hoşgeldiniz");
+                backgroundJobClient.Enqueue<IEmailSender>(x => x.SendEmailAsync(message));
+            }
+           
             return response;
         }
         [HttpPost("Login")]
