@@ -24,23 +24,35 @@ namespace PayCore_Final.Controllers
             this.categoryService = categoryService;
             this.mapper = mapper;
         }
+        [Authorize]
         [HttpGet]
         public BaseResponse<IEnumerable<CategoryDto>> GetAll()
         {
             var response = categoryService.GetAll();
             return mapper.Map<BaseResponse<IEnumerable<CategoryDto>>>(response);
         }
+
+        [Authorize]
         [HttpPost]
         public BaseResponse<CategoryDto> Create([FromBody] CategoryDto dto)
         {
             var response = categoryService.Insert(dto);
             return response;
         }
+
+        [Authorize]
         [HttpPut("{id}")]
-        public BaseResponse<CategoryDto> Update(int id,[FromBody] CategoryDto dto)
+        public IActionResult Update(int id,[FromBody] CategoryDto dto)
         {
             var response = categoryService.Update(id, dto);
-            return response;
+            return Ok(response);
+        }
+        [Authorize]
+        [HttpDelete]
+        public IActionResult Delete(int id)
+        {
+            var response = categoryService.Remove(id);
+            return Ok(response);
         }
     }
 }

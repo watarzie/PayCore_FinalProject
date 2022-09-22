@@ -25,16 +25,18 @@ namespace PayCore_Final.Controllers
             this.productService = productService;
             this.mapper = mapper;
         }
-        [HttpGet("{categoryId}")]
+
         [Authorize]
+        [HttpGet("{categoryId}")]
         public IActionResult GetByCategory(int categoryId)
         {
             IEnumerable<Product> productDto = productService.GetAllByCategoryId(categoryId);
             return Ok(productDto);
 
         }
-        [HttpPost]
+
         [Authorize]
+        [HttpPost]
         public IActionResult Create([FromBody] ProductDto dto)
         {
             var userId = (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
@@ -59,6 +61,10 @@ namespace PayCore_Final.Controllers
         public IActionResult Update(int id, [FromBody] ProductDto dto)
         {
             var control = productService.GetProduct(id);
+            if(control is null)
+            {
+                return BadRequest("Böyle bir ürün bulunmamaktadır");
+            }
             var userId= (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
             dto.UserId= int.Parse(userId);
             if(control.UserId==dto.UserId)
@@ -74,6 +80,10 @@ namespace PayCore_Final.Controllers
         public IActionResult Delete(int id)
         {
             var control = productService.GetProduct(id);
+            if (control is null)
+            {
+                return BadRequest("Böyle bir ürün bulunmamaktadır");
+            }
             var userId = (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
             
             if (control.UserId == int.Parse(userId))

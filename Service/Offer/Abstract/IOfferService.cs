@@ -13,5 +13,6 @@ namespace PayCore_Final.ServiceOffer
     {
         public IEnumerable<Offer> GetAllByOffers(int id);
         public IEnumerable<Offer> GetAllByOffersProduct(int id);
+        public Offer GetOffer(int id);
     }
 }

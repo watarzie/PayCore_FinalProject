@@ -30,8 +30,9 @@ namespace PayCore_Final.Controllers
             this.productService = productService;
             this.updateProductService = updateProductService;
         }
-        [HttpPost]
+
         [Authorize]
+        [HttpPost]
         public IActionResult Create([FromBody] OfferDto dto)
         {
             
@@ -60,8 +61,8 @@ namespace PayCore_Final.Controllers
 
         }
 
-        [HttpPost("BuyProductWithoutOffer")]
         [Authorize]
+        [HttpPost("BuyProductWithoutOffer")]
         public IActionResult Buy(int productId,[FromBody] UpdateProductDto dto)
         {
             if(dto.IsSold==true)
@@ -71,6 +72,41 @@ namespace PayCore_Final.Controllers
             }
             return BadRequest();
             
+        }
+        [Authorize]
+        [HttpPut("{id}")]
+        public IActionResult Update(int id,[FromBody]OfferDto dto)
+        {
+            var control = offerService.GetOffer(id);
+            if(control is null)
+            {
+                return BadRequest("Böyle bir teklif bulunmamaktadır");
+            }
+            var userId = (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
+            dto.UserId = int.Parse(userId);
+            if (control.UserId == dto.UserId)
+            {
+                var response = offerService.Update(id, dto);
+                return Ok(response);
+            }
+            return Unauthorized();
+        }
+        [Authorize]
+        [HttpDelete("{id}")]
+        public IActionResult Delete(int id)
+        {
+            var control = offerService.GetOffer(id);
+            if(control is null)
+            {
+                return BadRequest("Böyle bir teklif bulunmamaktadır");
+            }
+            var userId = (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
+            if (control.UserId == int.Parse(userId))
+            {
+                var response = offerService.Remove(id);
+                return Ok(response);
+            }
+            return Unauthorized();
         }
     
     }

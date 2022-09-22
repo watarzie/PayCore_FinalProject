@@ -10,6 +10,7 @@ using Service.UserRegister.Abstract;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 
 namespace PayCore_Final.Controllers
@@ -26,6 +27,7 @@ namespace PayCore_Final.Controllers
             this.userRegisterService = userRegisterService;
             this.mapper = mapper;
             this.tokenService = tokenService;
+            
         }
         [HttpPost("Register")]
         public BaseResponse<UserRegisterDto> Register([FromBody] UserRegisterDto dto)

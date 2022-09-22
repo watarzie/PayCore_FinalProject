@@ -36,6 +36,10 @@ namespace PayCore_Final.ServiceOffer
         {
             return hibernateRepository.Find(x => x.ProductId == id);
         }
+        public Offer GetOffer(int id)
+        {
+            return hibernateRepository.GetById(id);
+        }
        
 
 

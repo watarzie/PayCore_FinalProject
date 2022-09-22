@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Dto;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -25,8 +26,8 @@ namespace PayCore_Final.Controllers
             this.offerService = offerService;
             this.mapper = mapper;
         }
-        [HttpGet]
         [Authorize]
+        [HttpGet]
         public IActionResult GetOffers()
         {
             var userId = (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
@@ -35,8 +36,8 @@ namespace PayCore_Final.Controllers
             return Ok(response);
             
         }
-        [HttpGet("Offers")]
         [Authorize]
+        [HttpGet("Offers")]
         public IActionResult GetOfferMyProduct()
         {
             var userId = (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
@@ -51,6 +52,13 @@ namespace PayCore_Final.Controllers
             return BadRequest();
 
         }
+        //[Authorize]
+        //[HttpPost]
+        //public IActionResult Approve([FromBody]OfferDto dto)
+        //{
+        //    var userId = (User.Identity as ClaimsIdentity).FindFirst("UserId").Value;
+        //    int userid = int.Parse(userId);
+        //}
 
     }
 }

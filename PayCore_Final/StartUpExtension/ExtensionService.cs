@@ -32,10 +32,6 @@ namespace PayCore_Final.StartUpExtension
             services.AddScoped<IUpdateProductService, UpdateProductService>();
             services.AddScoped<ITokenService, TokenService>();
 
-
-
-
-
             // mapper
             var mapperConfig = new MapperConfiguration(cfg =>
             {
